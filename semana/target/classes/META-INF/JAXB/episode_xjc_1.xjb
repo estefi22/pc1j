@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por Eclipse Implementation of JAXB v3.0.0 
+Visite https://eclipse-ee4j.github.io/jaxb-ri 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2023.06.15 a las 05:34:49 PM COT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://spring.io/guides/gs-producing-web-service">
+    <schemaBindings map="false">
+      <package name="io.spring.guides.gs_producing_web_service"/>
+    </schemaBindings>
+    <bindings scd="tns:getWeekRequest">
+      <class ref="io.spring.guides.gs_producing_web_service.GetWeekRequest"/>
+    </bindings>
+    <bindings scd="tns:getWeekResponse">
+      <class ref="io.spring.guides.gs_producing_web_service.GetWeekResponse"/>
+    </bindings>
+    <bindings scd="~tns:week">
+      <class ref="io.spring.guides.gs_producing_web_service.Week"/>
+    </bindings>
+    <bindings scd="~tns:currency">
+      <typesafeEnumClass ref="io.spring.guides.gs_producing_web_service.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
+
